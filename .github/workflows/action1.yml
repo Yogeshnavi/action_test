@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print hii
-        run: echo " hi"
-             echo " hi"
+        run: | 
+            echo " hi"
+            echo " hi"
       - name: print heloo
         run: echo "hello"
